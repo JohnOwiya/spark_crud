@@ -1,10 +1,5 @@
 <?php
-/**
- * delete.php
- * The "Delete" page: shows a confirmation screen first (GET request),
- * and only deletes once the user confirms (POST request).
- * This avoids accidental deletes from a single misclick.
- */
+
 require_once 'db.php';
 require_once 'helpers.php';
 require_once 'icons.php';
