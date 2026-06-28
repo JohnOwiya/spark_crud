@@ -1,11 +1,3 @@
-/**
- * app.js
- * Tiny progressive-enhancement script: when a form with [data-loading-text]
- * on its submit button is submitted, swap the button to a spinner + loading
- * label. Since this is a classic PHP app (full page reload on submit), this
- * just gives the user visual feedback that their click registered while the
- * next page loads — it doesn't replace any server-side logic.
- */
 document.addEventListener('submit', function (e) {
   const form = e.target;
   const submitBtn = form.querySelector('button[type="submit"]');
